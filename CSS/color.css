@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --text-color: #333;
+    /* 
+    mainbg #ffe9d7
+    lysbg #ffeee1
+
+    gradient
+    -webkit-linear-gradient(-40deg, rgba(255,233,195, 1) 0%, #ff9394 100%);
+    */
+  }
+  
+
+  .lightbg{
+    background: #ffeee1;
+    min-height: 100vh;
+  }
+
+  .gradient{
+    background:-webkit-linear-gradient(-40deg, rgba(255,233,195, 1) 0%, #ff9394 100%);
+
+    /* background: linear-gradient(-45deg, #ff9394, #FFE9C3, #ff9394,  #FFE9C3);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  }
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    } */
+  
+  }
+
+  .quotetext{
+    color: #252525;
+  }
+  .quotename{
+    color: #252525;
+  }
